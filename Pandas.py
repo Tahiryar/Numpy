@@ -10,3 +10,7 @@ data = {
 df = pd.DataFrame(data)
 
 print(df)
+
+df = pd.read_csv("data.csv")  # CSV file read karna
+df = pd.read_excel("data.xlsx")  # Excel file read karna
+df = pd.read_sql("SELECT * FROM users", connection)  # SQL Database se data lena
